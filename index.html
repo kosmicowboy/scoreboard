@@ -13,8 +13,7 @@
 
   <body ng-app="PubNubAngularApp" ng-controller="MainCtrl">
     <div class="stats col-md-4 col-md-offset-1">
-          <h1>Kyle Gray</h1>
-          <h2>Blair Hencratt</h2>
+          <h3>Kyle Gray | Blair Hencratt</h3>
           <hr>
           <input class="col-md-4" type="text" ng-model="state.home_team" placeholder="Home Team" style="color: gray"/>
           <input class="col-md-2" type="text" ng-model="state.home_score" placeholder="Home Score" style="color: gray"/>
@@ -40,8 +39,7 @@
         </div>
 
       <div class="broadcast col-md-4 col-md-offset-1 vcenter">
-        <h1>Kearny Mesa Little League</h1>
-        <h2>Prestige Worldwide</h2>
+        <h2>Kearny Mesa Little League</h2>
         <hr>
         <h4>{{state.home_team}}: {{state.home_score}}</h4>
         <h4>{{state.away_team}}: {{state.away_score}}</h4>
@@ -78,7 +76,7 @@
 
         <!-- <h3>Last Play: {{state.last_play}}</h3> -->
         <br />
-        <hr>
+        <!-- <hr> -->
       </div>
   </body>
 </html>
